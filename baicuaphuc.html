@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mini - [Đặng Hoàng Anh  ]</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font tự chọn */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Màu nền nhẹ */
+            color: #343a40; /* Màu chữ chính */
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        section {
+            padding: 50px 0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e9ecef; /* Đường phân cách */
+        }
+        
+        h2 {
+            color: #007bff; /* Màu tiêu đề chính */
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        /* 2. Header/Ảnh đại diện - Yêu cầu 1 */
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 6px solid #ffffff;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .tagline {
+            font-size: 1.3em;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        
+        /* 3. Giới thiệu & Sản phẩm */
+        .project-list {
+            display: flex;
+            justify-content: space-around;
+            gap: 25px;
+            flex-wrap: wrap; 
+        }
+
+        .project-item {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            flex: 1 1 300px; /* Chiếm khoảng 30% và linh hoạt */
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .project-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-item img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        
+        .project-item h3 {
+            color: #28a745; /* Màu xanh lá cây nổi bật cho dự án */
+        }
+
+        /* 4. Footer - Yêu cầu 4 */
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        footer a {
+            color: #ffc107; /* Màu vàng cam cho liên kết */
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        
+        footer a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="home">
+        <div class="profile-section">
+            <img src="PhucDepTrai.jpg.jpg " alt=" Ảnh đại diện của tôi " class="avatar">
+            <h1> Đặng Hoàng Anh Phúc </h1>
+            <p class="tagline">" Sống là chính mình, ta sẽ thấy được hạnh phúc  "</p>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>👋 Giới Thiệu Về Tôi</h2>
+        
+        <p style="text-align: justify; margin-bottom: 30px;">
+            Chào mọi người, tôi là Đặng Hoàng Anh Phúc. Tôi hiện là một học sinh cấp 3 đang trong độ tuổi mọi người gọi là " bẻ gãy sừng trâu" với ước mơ và hoài bão về một tương lai tốt đẹp, tôi sẽ cố gắng để biến bản thân trở phiên bản tốt nhất qua từng ngày. Với mục tiêu cuối cùng là có thể đạt được tự do tài chính và thực hiện những gì mình thích và làm những gì mình muốn.
+        </p>
+
+        <h3>🎓 Học vấn</h3>
+        <ul>
+            <li>Trường:THCS-THPT Minh </li>
+            <li>Lớp:12A2 </li>
+            <li>Thành tích nổi bật: Đạt danh hiệu học sinh khá </li>
+        </ul>
+
+        <h3>🎨 Sở thích</h3>
+        <ul>
+            <li>Chơi game với bạn (Giúp tăng cường tinh thần đồng đội).</li>
+            <li>Chơi cầu lông (Giúp tăng cường thể chất).</li>
+            <li>Xem phim </li>
+        </ul>
+    </section>
+
+    <section id="portfolio" class="container">
+        <h2>✨ Sản Phẩm / Hoạt Động Tiêu Biểu</h2>
+        <div class="project-list">
+            
+            <div class="project-item">
+                <h3>1. Website Quản Lý Thư Viện</h3>
+                <img src="quatang.jpg " alt="kỷ niệm ngày 19/11 năm 2025  ">
+                <p>kỷ niệm ngày 19/11 năm 2025</p>
+            </div>
+            
+            <div class="project-item">
+                <h3>2. Chụp hình kỷ niệm với thầy cô nhân dịp 20/11 </h3>
+                <img src="ảnhchung.jpg" alt="Kỷ niệm đẹp năm cuối cấp ">
+                <p>Kỷ niệm đẹp năm cuối cấp</p>
+            </div>
+            
+            <div class="project-item">
+                <h3>3. Thiết Kế Website Cá Nhân</h3>
+                <img src="ảnh mẫu.jpg" alt="Ảnh minh họa Portfolio">
+                <p>Tự tay code và thiết kế giao diện từ A-Z (Chính là trang bạn đang xem!).</p>
+                <a href="#" target="_blank">Source Code</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>📧 Liên hệ Email: <a href="mailto:nguyenhoanganhphuc.dt2000@gmail.com">nguyenhoanganhphuc.dt2000@gmail.com</a></p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/1BvcBfXTYs/" target="_blank">Facebook</a> |
+            <a href="https://x.com/AnhPhcngHong1?t=r06QYd0OsXQKq03kfS8qlA&s=07" target="_blank">Twitter (X)</a>
+        </div>
+        <p class="copyright">© 2025 Đặng Hoàng Anh Phúc.</p>
+    </footer>
+
+</body>
+</html>
